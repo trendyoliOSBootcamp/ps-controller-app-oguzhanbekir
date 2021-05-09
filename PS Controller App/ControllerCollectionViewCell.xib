@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="psControllerIdentifier" id="gTV-IL-0wX" customClass="ControllerCollectionViewCell" customModule="PS_Controller_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="223" height="287"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="223" height="287"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="controllerCellBackground" translatesAutoresizingMaskIntoConstraints="NO" id="agG-bG-G9G">
+                        <rect key="frame" x="0.0" y="0.0" width="223" height="287"/>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="z3A-aw-WOg">
+                        <rect key="frame" x="24" y="215" width="175" height="48"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dual Sense" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ste-wL-L8z">
+                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="23"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="20"/>
+                                <color key="textColor" red="0.81960784310000001" green="0.8862745098" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Official PS5 controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BO8-Aa-e6H">
+                                <rect key="frame" x="0.0" y="30" width="145" height="18"/>
+                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="15"/>
+                                <color key="textColor" red="0.65490196078431373" green="0.70196078431372544" blue="0.74901960784313726" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blackPSController" translatesAutoresizingMaskIntoConstraints="NO" id="IIh-Lj-i3M">
+                        <rect key="frame" x="28" y="88" width="167" height="111"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="IIh-Lj-i3M" secondAttribute="height" multiplier="3:2" id="aLK-tu-jGm"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="agG-bG-G9G" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="0Xd-st-8bn"/>
+                <constraint firstItem="IIh-Lj-i3M" firstAttribute="centerY" secondItem="agG-bG-G9G" secondAttribute="centerY" id="479-qG-YEU"/>
+                <constraint firstItem="IIh-Lj-i3M" firstAttribute="centerX" secondItem="agG-bG-G9G" secondAttribute="centerX" id="4b5-m6-Cgp"/>
+                <constraint firstAttribute="bottom" secondItem="z3A-aw-WOg" secondAttribute="bottom" constant="24" id="BkJ-XP-YcX"/>
+                <constraint firstAttribute="bottom" secondItem="agG-bG-G9G" secondAttribute="bottom" id="IRU-CK-UhZ"/>
+                <constraint firstAttribute="trailing" secondItem="agG-bG-G9G" secondAttribute="trailing" id="T5J-Wd-fuZ"/>
+                <constraint firstItem="agG-bG-G9G" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="c9F-J8-MrL"/>
+                <constraint firstItem="z3A-aw-WOg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="24" id="tLX-VN-mOC"/>
+                <constraint firstItem="IIh-Lj-i3M" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="28" id="tdk-tb-zUO"/>
+                <constraint firstAttribute="trailing" secondItem="z3A-aw-WOg" secondAttribute="trailing" constant="24" id="wnW-VZ-TKW"/>
+                <constraint firstAttribute="trailing" secondItem="IIh-Lj-i3M" secondAttribute="trailing" constant="28" id="yi8-3l-IZy"/>
+            </constraints>
+            <size key="customSize" width="648" height="1034"/>
+            <connections>
+                <outlet property="imageView" destination="IIh-Lj-i3M" id="m8o-Jr-zgH"/>
+            </connections>
+            <point key="canvasLocation" x="125.36231884057972" y="264.84375"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="blackPSController" width="174" height="116"/>
+        <image name="controllerCellBackground" width="231" height="291"/>
+    </resources>
+</document>
