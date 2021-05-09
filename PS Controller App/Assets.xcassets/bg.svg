@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+    <defs>
+        <linearGradient id="5xl8hycfab" x1="94.941%" x2="30.838%" y1="100%" y2="-4.174%">
+            <stop offset="0%" stop-color="#191E26"/>
+            <stop offset="100%" stop-color="#353F55"/>
+        </linearGradient>
+        <linearGradient id="m1u1ew2ayd" x1="50%" x2="-51.891%" y1="101.622%" y2="-37.214%">
+            <stop offset="0%" stop-color="#4E4AF2"/>
+            <stop offset="100%" stop-color="#30DBE6"/>
+        </linearGradient>
+        <path id="ljixhsit9a" d="M27 54H435V895H27z"/>
+        <path id="i7vhr0f6vc" d="M247 41h307v668H267c-11.046 0-20-8.954-20-20V41z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-27 -54)">
+                    <use fill="#D8D8D8" xlink:href="#ljixhsit9a"/>
+                    <use fill="url(#5xl8hycfab)" xlink:href="#ljixhsit9a"/>
+                </g>
+                <path fill="#000" d="M0 0H453V876H0z" opacity=".246" transform="translate(-27 -54)"/>
+                <g transform="translate(-27 -54)">
+                    <use fill="#D8D8D8" xlink:href="#i7vhr0f6vc"/>
+                    <use fill="url(#m1u1ew2ayd)" xlink:href="#i7vhr0f6vc"/>
+                </g>
+                <text opacity=".15" style="mix-blend-mode:soft-light" fill="#FFF" font-family="Helvetica" font-size="120" transform="translate(-27 -54) rotate(-90 364 361.5)">
+                    <tspan x="12.5" y="403.5">DUAL SENSE</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
